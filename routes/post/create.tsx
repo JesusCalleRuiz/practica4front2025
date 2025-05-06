@@ -3,7 +3,7 @@ import { FreshContext, Handlers, PageProps } from "$fresh/server.ts";
 import Form from "../../components/Form.tsx";
 
 export const handler: Handlers = {
-  GET: async (req: Request, ctx: FreshContext) => {
+  POST: async (req: Request, ctx: FreshContext) => {
     const form = await req.formData();
     const title = form.get("tilte");
     const cover = form.get("cover");
