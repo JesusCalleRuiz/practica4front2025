@@ -29,7 +29,7 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "jesuscaller-practica5fr-85"
+          project: "jesuscaller-practica5fr-31"
           entrypoint: "main.ts"
           root: "."
           
