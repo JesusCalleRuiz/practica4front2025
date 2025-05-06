@@ -1,4 +1,4 @@
-import Axios from "axios";
+import Axios from "npm:axios";
 import { FreshContext, Handlers, PageProps } from "$fresh/server.ts";
 import Post from "../../components/Post.tsx";
 
